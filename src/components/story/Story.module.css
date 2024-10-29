@@ -1,0 +1,49 @@
+.titleStory {
+    text-align: center;
+}
+.titleStory h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #48555b;
+}
+.textsStory {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.textsStory p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+.textsStory h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+.textsStory h3 span {
+    letter-spacing: 0.01em;
+    color: #16ace8;
+}
+.bottomContentStory {
+    padding-top: 80px;
+}
+.cardsStory {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+.bottomContentStory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

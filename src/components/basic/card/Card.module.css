@@ -1,0 +1,13 @@
+.cardItem {
+    width: 140px;
+    background-size: cover;
+    padding: 15px 0 151px 14px
+}
+.cardItem h3 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}

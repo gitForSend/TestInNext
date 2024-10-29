@@ -1,0 +1,38 @@
+.contentParentKonstuct {
+    background: url("./../../../public/bgFirstSect.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 41px 0 71px 0;
+}
+.logoParentKonstruct {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.centerTexts h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+}
+.centerTexts p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+} 
+.bottomText p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.34em;
+    text-align: center;
+    color: #fff;
+}
+.centerTexts {
+    padding: 217px 0 221px 0;
+}
