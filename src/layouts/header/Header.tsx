@@ -1,5 +1,5 @@
 import styles from "./Header.module.css"
-import Container from "@/components/container/Container";
+import Container from "@/components/basic/container/Container";
 import Navbar from "../navBar/Navbar";
 export default function Header () {
     return (

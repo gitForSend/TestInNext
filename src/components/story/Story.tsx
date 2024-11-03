@@ -1,23 +1,23 @@
 import styles from "./Story.module.css";
 import LineStory from "../LineStory";
-import Container from "../container/Container";
+import Container from "../basic/container/Container";
 import CardItem from "../basic/card/Card";
-import FirstImg from "../../../public/Bitmap.png";
-import SecondImg from "../../../public/secondBitmap.png"
-import ThirdImg from "../../../public/thirdBitmap.png"
+// import FirstImg from "../../../public/assets/png/Bitmap.png";
+// import SecondImg from "../../../public/assets/png/secondBitmap.png"
+// import ThirdImg from "../../../public/assets/png/thirdBitmap.png"
 const cards = [
     {
-        src: FirstImg.src,
+        // src: FirstImg,
         text: "WE PLAN",
         width: "68px"
     },
     {
-        src: SecondImg.src,
+        // src: SecondImg,
         text: "WE MANAGE",
         width: "110px"
     },
     {
-        src: ThirdImg.src,
+        // src: ThirdImg,
         text: "WE BUILD",
         width: "76px"
     },
@@ -36,14 +36,14 @@ export default function Story () {
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                     </div>
                     <div className={styles.cardsStory}>
-                        {cards.map ((item,index) => {
+                        {/* {cards.map ((item,index) => {
                             return <CardItem
                             key={index} 
                             width={item.width}
                             text={item.text}
                             src={item.src}
                             />
-                        })}
+                        })} */}
                     </div>
                 </div>
             </div>

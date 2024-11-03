@@ -22,3 +22,8 @@
     align-items: center;
     gap: 42px;
 }
+@media only screen and (max-width: 621px) {
+    .ul {
+        display: none;
+    }
+}

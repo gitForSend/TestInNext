@@ -1,7 +1,7 @@
 import styles from "./ParentKonstuct.module.css"
 import Image from "next/image";
-import Logo from "../../../public/projeco-logo.png";
-import Container from "../container/Container";
+import Logo from "../../../public/assets/png/projeco-logo.png";
+import Container from "../basic/container/Container";
 export default function ParentKonstuct () {
     return (
         <div className={styles.contentParentKonstuct}>

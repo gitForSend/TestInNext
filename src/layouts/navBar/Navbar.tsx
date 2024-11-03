@@ -1,26 +1,29 @@
+// "use client";
 import styles from "./Navbar.module.css";
 import Image from "next/image";
-import Logo from "../../../public/projeco-logo-black.png";
-const navMenu: String[] = [
-    "HOME","ABOUT","SERVICES","WORK","CONTACT"
-]
+// import Logonav from "../../../public/assets/png/projeco-logo-black.png";
+import Navigation from "../hamburger/Hamburger";
 
-export default function Navbar () {
-    return (
-        <nav className={styles.nav}>
-            <div className={styles.logoNavbar}>
-                <Image 
-                    src={Logo}
-                    alt="Logo"
-                    width={79.53}
-                    priority
-                />
-            </div>
-            <ul className={styles.ul}>
-                {navMenu.map((item,index) => {
-                    return <li key={index}>{item}</li>
-                })}
-            </ul>
-        </nav>
-    )
+export const navMenu: string[] = [
+  "HOME",
+  "ABOUT",
+  "SERVICES",
+  "WORK",
+  "CONTACT",
+];
+
+export default function Navbar() {
+  return (
+    <nav className={styles.nav}>
+      <div className={styles.logoNavbar}>
+        {/* <Image src={Logonav} alt="logo" width={79.53} /> */}
+      </div>
+      <Navigation />
+      <ul className={styles.ul}>
+        {navMenu.map((item: string, index: number) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </nav>
+  );
 }
